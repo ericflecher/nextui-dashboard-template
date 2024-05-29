@@ -26,7 +26,7 @@ export const NavbarWrapper = ({ children }: Props) => {
           <BurguerButton />
         </NavbarContent>
         <NavbarContent className="w-full max-md:hidden">
-          <Input
+          {/* <Input
             startContent={<SearchIcon />}
             isClearable
             className="w-full"
@@ -35,7 +35,7 @@ export const NavbarWrapper = ({ children }: Props) => {
               mainWrapper: "w-full",
             }}
             placeholder="Search..."
-          />
+          /> */}
         </NavbarContent>
         <NavbarContent
           justify="end"
@@ -52,12 +52,12 @@ export const NavbarWrapper = ({ children }: Props) => {
             <SupportIcon />
           </div>
 
-          <Link
+          {/* <Link
             href="https://github.com/Siumauricio/nextui-dashboard-template"
             target={"_blank"}
           >
             <GithubIcon />
-          </Link>
+          </Link> */}
           <NavbarContent>
             <UserDropdown />
           </NavbarContent>
